@@ -35,6 +35,18 @@
 				<label for="userEmail">Email Address<span class="required">*</span></label>
 				<input type="email" name="userEmail" id="userEmail" required>
 
+				<label for="userPhone">Phone Number<span class="required">*</span></label>
+				<input type="tel" name="userPhone" id="userPhone" required>
+
+				<fieldset>
+					<legend>Preferred Method of Contact</legend>
+					<input type="radio" name="prefersPhone" id="prefersPhone" checked>
+					<label for="prefersPhone">Phone</label>
+					
+					<input type="radio" name="prefersEmail" id="prefersEmail">
+					<label for="prefersEmail">Email</label>
+				</fieldset>
+
 				<input type="submit" name="userSubmit" id="userSubmit">
 			</form>
 		</article>
